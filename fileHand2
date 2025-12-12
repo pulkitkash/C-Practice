@@ -1,0 +1,16 @@
+#include <iostream>
+#include <fstream>   // When engaging with file.
+using namespace std;
+
+main() {
+    
+    ifstream infile;
+    string str;
+    infile.open("E:\\c++ shit\\file1.txt");
+    while(getline(infile , str)) {
+        cout<<str<<endl;
+    }
+    cout<<"Data is updated broski";
+    infile.close();
+
+}
