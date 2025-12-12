@@ -10,13 +10,13 @@ private:
 protected:
     string owner;
 public:
-    youtube1(string name, string owner) {
+    youtube1(string Name, string owner) {
         name = name;
         owner = owner;
         subs = 0;
     }
     void getinfo() {
-        cout<<"name: "<<name<<endl;
+    cout<<"name: "<<name<<endl;
     cout<<"Owner name: "<<owner<<endl;
     cout<<"subs: "<<subs<<endl;
     cout<<"Vedios: "<<endl;
