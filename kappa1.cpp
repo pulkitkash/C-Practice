@@ -34,7 +34,7 @@ int main() {
     ytchnl.name = "Casetoo";
     ytchnl.ownername = "Shivam";
     ytchnl.subs = 3000;
-    ytchnl.vedio = {"BGMI " , "Teri ma ki" , "Hindi porn" , "abe HIzde"};
+    ytchnl.vedio = {"BGMI " , "Salman khan" , "Hindi vedios " , "Sanjay dutt "};
     
     cout<<"name: "<<ytchnl.name<<endl;
     cout<<"Owner name: "<<ytchnl.ownername<<endl;
